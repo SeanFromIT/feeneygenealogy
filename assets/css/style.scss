@@ -1,0 +1,113 @@
+---
+# this is an empty front matter, and is required for this page.
+---
+
+body {font-family: Verdana, Arial, Georgia;background-image: url('/assets/img/paleshamrocks.gif');background-repeat: repeat;}
+
+a {color:#009933; text-decoration: none;}
+
+a:hover {color:#009933; text-decoration: underline;}
+
+#content {background-color: #FFF; margin-left:auto;margin-right:auto;width:800px;border-right:2px solid black; border-bottom:2px solid black; border-top:1px solid black; border-left:1px solid black;}
+
+#banner {background-color: #1FD324;font-family:Georgia, Times New Roman;font-style:italic;font-size:100%;padding-left:3px;}
+
+#nav {margin-top: 0px; margin-bottom: 5px; padding: 0; height: 20px;}
+
+#nav ul {border: 0; margin: 0; padding: 0; list-style-type: none; text-align: center;}
+
+#nav ul li {
+
+	display: block;
+
+	float: left;
+
+	text-align: center;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+#nav ul li a {
+
+	background: #fff;
+
+/*	width: 132px; */
+
+	height: 18px;
+
+	border-top: 1px solid #1FD324;
+
+	border-left: 1px solid #1FD324;
+
+	border-bottom: 1px solid #1FD324;
+
+	border-right: none;
+
+	padding: 0;
+
+	margin: 0 0 10px 0;
+
+	color: #1FD324;
+
+	text-decoration: none;
+
+	display: block;
+
+	text-align: center;
+
+	font-size: 13px;
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+
+}
+
+#nav ul li a:hover {
+
+	color: #006600;
+
+	background: #1FD324;
+
+}
+
+#nav a:active {
+
+	background: #009933;
+
+	color: #fff;
+
+}
+
+#nav li#active a {
+
+	background: #009933;
+
+	border: 1px solid #009933;
+
+	color: #fff;
+
+}
+
+#maincontent {padding-left: 5px; padding-right: 5px;}
+
+#copyright {text-align: center;}
+
+#news {
+
+	float:right;
+
+	width:200px;
+
+	border-left: 1px solid #009933;
+
+	border-bottom: 1px solid #009933;
+
+	padding: 0 0 10px 10px;
+
+}
+
+.ulFix {
+  overflow: hidden;
+}
